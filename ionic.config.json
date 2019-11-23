@@ -1,0 +1,7 @@
+{
+  "name": "share-market-live",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

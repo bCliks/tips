@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "508136328956",
+    "firebase_url": "https://sharemarket-98e44.firebaseio.com",
+    "project_id": "sharemarket-98e44",
+    "storage_bucket": "sharemarket-98e44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508136328956:android:42349d916d43452fae5179",
+        "android_client_info": {
+          "package_name": "com.share.market.live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508136328956-eehua46iop16smcq0k5jbt0fsnctrqg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqJwl9He-mkUpFQRAc13OWO20k4iEhaKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508136328956-eehua46iop16smcq0k5jbt0fsnctrqg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
