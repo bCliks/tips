@@ -9,7 +9,7 @@
 <ion-content>
   <div>
     <ion-list>
-      <ion-list-header color="medium">
+      <ion-list-header color="medium" (click)="onClickMe()">
         Push Notifications
       </ion-list-header>
       <ion-item *ngFor="let push of pushes">

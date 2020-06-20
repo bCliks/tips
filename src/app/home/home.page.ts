@@ -9,6 +9,12 @@ import { Platform } from '@ionic/angular';
 })
 export class HomePage {
   pushes: any = [];
+  onClickMe() {
+    this.pushes.push({
+      body: "body",
+      title: "title"
+    })
+  }
   constructor(private fcm: FCM, public plt: Platform) {
     this.plt.ready()
       .then(() => {
@@ -21,6 +27,7 @@ export class HomePage {
               title: data.title
             })
             console.log(this.pushes)
+            alert(data.title+data.body)
           } else {
             console.log(data)
             console.log("Received in foreground");
@@ -29,6 +36,7 @@ export class HomePage {
               title: data.title
             })
             console.log(this.pushes)
+            alert(data.title+data.body)
           };
         });
 

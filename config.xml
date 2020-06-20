@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.enappd.ionic4push" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.share.market.live" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Share Market - Live!</name>
-    <description>An awesome Tips app.</description>    
+    <description>An awesome Tips app.</description>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -86,5 +86,4 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-plugin-fcm-with-dependecy-updated" spec="^2.4.0" />
-    <engine name="android" spec="7.0.0" />
 </widget>
